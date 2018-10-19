@@ -1,0 +1,8 @@
+version: '3'
+services:
+  myapp:
+    image: chaiyawat/node-express-pure
+    ports:
+      - "8000:8000"
+    command: "npm start"
+
